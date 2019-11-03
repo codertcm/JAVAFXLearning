@@ -17,7 +17,7 @@ public class Main extends Application{
     Stage stage;
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) {
         stage = primaryStage;
 
         stage.setOnCloseRequest(event -> {
