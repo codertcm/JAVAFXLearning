@@ -13,7 +13,7 @@ public class circularRing extends Application {
     public void start(Stage stage) {
         Pane pane = new Pane();
 
-        Circle circle1 = new Circle(50, 50, 30);
+        Circle circle1 = new Circle(50, 50, 40);
 
         Circle circle2 = new Circle(200, 50, 40);
         //circle2.setFill(new Color(1, 1, 1, 0));
